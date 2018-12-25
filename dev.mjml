@@ -17,11 +17,54 @@
     </mj-attributes>
   </mj-head>
 
-  <mj-body background-color="#ffffff">
+  <mj-body background-color="#f8f8f8">
 
-    <mj-section>
+    <mj-raw>
+      <!-- hero image -->
+    </mj-raw>
+    <mj-section background-color="#ffffff">
       <mj-column>
+        <mj-image src="https://i.postimg.cc/YCfGfLFC/hero.jpg" />
+      </mj-column>
+    </mj-section>
 
+    <mj-raw>
+      <!-- WE ARE LOOKING FORWARD TO SEEING YOU! -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="30px 0px 0px 0px">
+      <mj-column>
+        <mj-text font-family="'Questrial', sans-serif" font-size="22px" letter-spacing="1px" line-height="30px" color="#313131" align="center">
+          WE ARE LOOKING FORWARD TO SEEING YOU!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- line -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="10px 20px 20px 20px">
+      <mj-column border-bottom="1px solid #ececec"></mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Dear Amanda Davis, -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="10px 20px 10px 20px">
+      <mj-column>
+        <mj-text font-family="'Questrial', sans-serif" font-size="15px">
+          Dear Amanda Davis,
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- It's almost time for your stay at..... -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="10px 20px 20px 20px">
+      <mj-column>
+        <mj-text font-family="'Questrial', sans-serif" font-size="15px" line-height="30px">
+          It's almost time for your stay at the Sandals Beach Resort! In advance of your arrival, our concierge team would be pleased to answer any questions you have. Our team could also make dining reservation or recommend activities for your upcoming stay. You call us at <span style="font-weight:bold;">1-888-SANDALS</span> or email us at <a href="mailto:concierge@sandalsresort.com" style=" color: #0096de;" target="_blank">concierge@sandalsresort.com</a>
+        </mj-text>
       </mj-column>
     </mj-section>
 
