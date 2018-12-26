@@ -14,7 +14,23 @@
     <!-- This tag allows you to modify default attributes on a mj-tag and add mj-class to them. -->
     <mj-attributes>
       <mj-all padding="0" />
+      <mj-class name="left"/>
+      <mj-class name="right"/>
     </mj-attributes>
+
+    <mj-style>
+      @media (min-width:500px) {
+
+        .right td {
+          text-align:right !important;
+        }
+
+        .left td {
+          text-align:left !important;
+        }
+
+      }
+    </mj-style>
   </mj-head>
 
   <mj-body background-color="#f8f8f8">
@@ -253,16 +269,32 @@
     <mj-raw>
       <!-- address -->
     </mj-raw>
-    <mj-section background-color="#ffffff" padding="10px 20px 20px 20px">
+    <mj-section background-color="#ffffff" padding="10px 20px 40px 20px">
       <mj-column>
         <mj-text font-family="'Questrial', sans-serif" line-height="22px">
-          P.O. Box 771, Main Street,  <br>
+          P.O. Box 771, Main Street, <br>
           Ocho Rios St. Ann, <br>
           Jamaica, West Indies
         </mj-text>
       </mj-column>
     </mj-section>
 
+    <mj-raw>
+      <!-- footer -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" border-top="1px solid #ececec" padding="20px 20px 20px 20px">
+      <mj-column vertical-align="middle" css-class="left">
+        <mj-image src="https://i.postimg.cc/ZRM0jjy1/logo.png" alt="Sandals logo" width="120px"/>
+      </mj-column>
+      <mj-column vertical-align="middle" css-class="right">
+        <mj-social font-size="15px" icon-size="20px" mode="horizontal" >
+          <mj-social-element href="#" src="https://i.postimg.cc/8z2YZXWn/facebook.png" padding="15px 12px 0 12px"></mj-social-element>
+          <mj-social-element href="#" src="https://i.postimg.cc/t706K65y/instagram.png" padding="15px 12px 0 12px"></mj-social-element>
+          <mj-social-element href="#" src="https://i.postimg.cc/fWVrhhKg/twitter.png" padding="15px 12px 0 12px"></mj-social-element>
+          <mj-social-element href="#" src="https://i.postimg.cc/v8CSYS28/youtube.png" padding="15px 12px 0 12px"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
 
 
 
