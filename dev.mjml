@@ -31,7 +31,7 @@
     <mj-raw>
       <!-- WE ARE LOOKING FORWARD TO SEEING YOU! -->
     </mj-raw>
-    <mj-section background-color="#ffffff" padding="30px 0px 0px 0px">
+    <mj-section background-color="#ffffff" padding="30px 20px 0px 20px">
       <mj-column>
         <mj-text font-family="'Questrial', sans-serif" font-size="22px" letter-spacing="1px" line-height="30px" color="#313131" align="center">
           WE ARE LOOKING FORWARD TO SEEING YOU!
@@ -64,6 +64,77 @@
       <mj-column>
         <mj-text font-family="'Questrial', sans-serif" font-size="15px" line-height="30px">
           It's almost time for your stay at the Sandals Beach Resort! In advance of your arrival, our concierge team would be pleased to answer any questions you have. Our team could also make dining reservation or recommend activities for your upcoming stay. You call us at <span style="font-weight:bold;">1-888-SANDALS</span> or email us at <a href="mailto:concierge@sandalsresort.com" style=" color: #0096de;" target="_blank">concierge@sandalsresort.com</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- RESERVATION DETAILS heading -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="20px 20px 0px 20px">
+      <mj-column>
+        <mj-text font-family="'Questrial', sans-serif" font-size="22px" letter-spacing="1px" line-height="30px" color="#313131">
+          RESERVATION DETAILS
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- line -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="10px 20px 20px 20px">
+      <mj-column border-bottom="1px solid #ececec"></mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- reservation details  -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="10px 20px 20px 20px">
+      <mj-column>
+        <mj-table font-family="'Questrial', sans-serif" font-size="14px">
+          <tr style="background-color:#ececec;">
+            <td style="padding:15px 0px 0px 20px;">Reservation Number:</td>
+            <td style="padding:15px 20px 0px 0px;">35040200</td>
+          </tr>
+          <tr>
+            <td style="padding:15px 0px 0px 20px;">Guest Name:</td>
+            <td style="padding:15px 20px 0px 0px;">Amanda Davis</td>
+          </tr>
+          <tr style="background-color:#ececec;">
+            <td style="padding:15px 0px 0px 20px;">Arrival Date:</td>
+            <td style="padding:15px 20px 0px 0px;">Tuesday, May 08, 2018</td>
+          </tr>
+          <tr>
+            <td style="padding:15px 0px 0px 20px;">Departure Date:</td>
+            <td style="padding:15px 20px 0px 0px;">Friday, May 11, 2018</td>
+          </tr>
+          <tr style="background-color:#ececec;">
+            <td style="padding:15px 0px 0px 20px;">Number of Nights:</td>
+            <td style="padding:15px 20px 0px 0px;">3</td>
+          </tr>
+          <tr>
+            <td style="padding:15px 0px 0px 20px;">Number of Adults:</td>
+            <td style="padding:15px 20px 0px 0px;">1</td>
+          </tr>
+          <tr style="background-color:#ececec;">
+            <td style="padding:15px 0px 0px 20px;">Number of Children:</td>
+            <td style="padding:15px 20px 0px 0px;">0</td>
+          </tr>
+          <tr>
+            <td style="padding:15px 0px 0px 20px;">Rate Conditions:</td>
+            <td style="padding:15px 20px 0px 0px;"> *$400 p/p<td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Cancellations made within 24 hours.... -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="0px 20px 20px 20px">
+      <mj-column>
+        <mj-text font-family="'Questrial', sans-serif" align="center" line-height="17px">
+           *Cancellations made within 24 hours of arrival are subject to a fee of the <br>first night room rate and tax.
         </mj-text>
       </mj-column>
     </mj-section>
