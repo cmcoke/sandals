@@ -158,7 +158,7 @@
     </mj-section>
 
     <mj-raw>
-      <!-- test -->
+      <!-- The Sandals Ochi Resort offers a variety..... -->
     </mj-raw>
     <mj-section background-color="#ffffff" padding="10px 20px 20px 20px">
       <mj-column>
@@ -215,6 +215,54 @@
         </mj-button>
       </mj-column>
     </mj-section>
+
+    <mj-raw>
+      <!-- line -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="10px 20px 20px 20px">
+      <mj-column border-bottom="1px solid #ececec"></mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Please do not hesitate to let us... -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="10px 20px 20px 20px">
+      <mj-column>
+        <mj-text font-family="'Questrial', sans-serif" line-height="22px">
+          Please do not hesitate to let us know how we may enhance your stay. Simply call us at <span style="font-weight:bold;">1-888-SANDALS</span>, or email us at <a href="mailto:reservations@sandalsresort.com" style=" color: #0096de;" target="_blank">reservations@sandalsresort.com</a>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Kind regards -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="10px 20px 20px 20px">
+      <mj-column>
+        <mj-text font-family="'Questrial', sans-serif" padding="0px 0px 10px 0px" align="left">
+          Kind regards,
+        </mj-text>
+        <mj-image src="https://i.postimg.cc/4xyBMSDd/signature.png" alt="John Spear signature" width="100px" align="left"/>
+        <mj-text font-family="'Questrial', sans-serif" line-height="22px" align="left">
+          John Spear <br>
+          General Manager
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- address -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="10px 20px 20px 20px">
+      <mj-column>
+        <mj-text font-family="'Questrial', sans-serif" line-height="22px">
+          P.O. Box 771, Main Street,  <br>
+          Ocho Rios St. Ann, <br>
+          Jamaica, West Indies
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
 
 
 
