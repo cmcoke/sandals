@@ -3,7 +3,7 @@
 
   <mj-head>
     <!-- This tag allows you to set the title of an MJML document -->
-    <mj-title>Sandals Reservation Details</mj-title>
+    <mj-title>Sandals Ochi Reservation Details</mj-title>
 
     <!-- This tag allows you to set the preview that will be displayed in the inbox of the recipient. -->
     <mj-preview>Your Sandals Ochi reservation details</mj-preview>
@@ -24,7 +24,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff">
       <mj-column>
-        <mj-image src="https://i.postimg.cc/YCfGfLFC/hero.jpg" />
+        <mj-image src="https://i.postimg.cc/YCfGfLFC/hero.jpg" alt="Aerial view of the Sandals Ochi Resort"/>
       </mj-column>
     </mj-section>
 
@@ -138,6 +138,85 @@
         </mj-text>
       </mj-column>
     </mj-section>
+
+    <mj-raw>
+      <!-- Activities heading -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="20px 20px 0px 20px">
+      <mj-column>
+        <mj-text font-family="'Questrial', sans-serif" font-size="22px" letter-spacing="1px" line-height="30px" color="#313131">
+          ACTIVITIES
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- line -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="10px 20px 20px 20px">
+      <mj-column border-bottom="1px solid #ececec"></mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- test -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="10px 20px 20px 20px">
+      <mj-column>
+        <mj-text font-family="'Questrial', sans-serif" font-size="15px" line-height="22px" align="center">
+          The Sandals Ochi Resort offers a variety of activities for our guests such as the highly recommend examples below. More activities can be found <a href="https://www.sandals.com/ochi/activities/" style="color:#0096de; text-decoration:none;">here</a>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Red Lane Spa -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="10px 20px 20px 20px">
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/R05TqDng/spa.jpg" alt="A guest getting a message"/>
+        <mj-text font-family="'Questrial', sans-serif" font-size="15px" line-height="30px">
+          <h2 style="padding:11px 0px 0px 0px">Red Lane Spa</h2>
+          <p style="padding:0px 0px 0px 0px">Discover a tranquil sanctuary at the exclusive Red Lane® Spa at Sandals Ochi, offering Caribbean-inspired spa treatments using natural regional products. The Spa has 16 treatment rooms, a fitness center, beauty salon, a Yoga-Pilates studio, steam room, plunge pools and several intimate relaxation areas in secluded gardens.</p>
+        </mj-text>
+        <mj-button href="https://www.sandals.com/redlane-spa/" font-family="'Questrial', sans-serif" background-color="#0096de">
+          Learn More
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Local Adventure Tours -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="30px 20px 20px 20px">
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/85hPdwwk/adventure-tours.jpg" alt="A guest zip lining through a forest"/>
+        <mj-text font-family="'Questrial', sans-serif" font-size="15px" line-height="30px">
+          <h2 style="padding:11px 0px 0px 0px">Local Adventure Tours</h2>
+          <p style="padding:0px 0px 0px 0px">The best way to experience the real Jamaica is to get up close and personal with it. Island Routes offers luxury adventure tours that range from completely exhilarating to delightfully sedate.</p>
+        </mj-text>
+        <mj-button href="https://www.sandals.com/tours/" font-family="'Questrial', sans-serif" background-color="#0096de">
+          Learn More
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Entertainment -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="30px 20px 20px 20px">
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/JnWRhZ8f/entertainment.jpg" alt="Guests dancing at one of our parties"/>
+        <mj-text font-family="'Questrial', sans-serif" font-size="15px" line-height="30px">
+          <h2 style="padding:11px 0px 0px 0px">Entertainment</h2>
+          <p style="padding:0px 0px 0px 0px">No one throws a party like Sandals because here every day is a celebration. From the slightly wild and exotic to the modern and lively, you’ll find parties around the beach, around the pool and around the clock.</p>
+        </mj-text>
+        <mj-button href="https://www.sandals.com/all-inclusive/entertainment/" font-family="'Questrial', sans-serif" background-color="#0096de">
+          Learn More
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+
 
   </mj-body>
 
