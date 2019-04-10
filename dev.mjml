@@ -282,16 +282,16 @@
     <mj-raw>
       <!-- footer -->
     </mj-raw>
-    <mj-section background-color="#ffffff" border-top="1px solid #ececec" padding="20px 20px 20px 20px">
+    <mj-section background-color="#ffffff"  padding="0px 20px 0px 20px">
       <mj-column vertical-align="middle" css-class="left" padding="50px 0px 0px 0px">
         <mj-image src="https://i.postimg.cc/ZRM0jjy1/logo.png" alt="Sandals logo" width="120px"/>
       </mj-column>
       <mj-column vertical-align="middle" css-class="right" padding="50px 0px 0px 0px">
         <mj-social font-size="15px" icon-size="20px" mode="horizontal" >
-          <mj-social-element href="#" src="https://i.postimg.cc/8z2YZXWn/facebook.png" padding="15px 12px 0 12px"></mj-social-element>
-          <mj-social-element href="#" src="https://i.postimg.cc/t706K65y/instagram.png" padding="15px 12px 0 12px"></mj-social-element>
-          <mj-social-element href="#" src="https://i.postimg.cc/fWVrhhKg/twitter.png" padding="15px 12px 0 12px"></mj-social-element>
-          <mj-social-element href="#" src="https://i.postimg.cc/v8CSYS28/youtube.png" padding="15px 12px 0 12px"></mj-social-element>
+          <mj-social-element href="https://www.facebook.com/sandalsresorts/" src="https://i.postimg.cc/8z2YZXWn/facebook.png" padding="15px 12px 0 12px"></mj-social-element>
+          <mj-social-element href="https://www.instagram.com/sandalsresorts/?hl=en" src="https://i.postimg.cc/t706K65y/instagram.png" padding="15px 12px 0 12px"></mj-social-element>
+          <mj-social-element href="https://twitter.com/SandalsResorts" src="https://i.postimg.cc/fWVrhhKg/twitter.png" padding="15px 12px 0 12px"></mj-social-element>
+          <mj-social-element href="https://t.co/Tx0P5Ky4Xa" src="https://i.postimg.cc/v8CSYS28/youtube.png" padding="15px 12px 0 12px"></mj-social-element>
         </mj-social>
       </mj-column>
     </mj-section>
@@ -299,17 +299,17 @@
     <mj-raw>
       <!-- line -->
     </mj-raw>
-    <mj-section background-color="#ffffff" padding="50px 20px 0px 20px">
+    <mj-section background-color="#ffffff" padding="20px 20px 0px 20px">
       <mj-column border-bottom="1px solid #ececec"></mj-column>
     </mj-section>
 
     <mj-raw>
       <!-- personal note -->
     </mj-raw>
-    <mj-section background-color="white" padding="0px 20px 10px 20px">
+    <mj-section background-color="white" padding="0px 20px 0px 20px">
       <mj-column>
-        <mj-text font-family="Questrial" font-size="13px" line-height="19px" align="center">
-           <p>To Whom It May Concern, this email is a personal project of mine and not that of Sandals.</p>
+        <mj-text font-family="'Questrial', sans-serif" font-size="13px" line-height="19px" align="center">
+           <p>Please note that this email is a personal project of mine and not that of Sandals.</p>
         </mj-text>
       </mj-column>
     </mj-section>
